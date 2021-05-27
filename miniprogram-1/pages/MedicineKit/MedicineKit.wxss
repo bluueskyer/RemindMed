@@ -1,0 +1,134 @@
+
+
+
+
+
+
+/*药品样式*/
+.body{
+  width:100%;
+  
+}
+/*头部样式*/
+.header{
+  width:100%;
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  padding:0 10px;
+  box-sizing: border-box;
+  
+}
+.header .logo{
+  width:650px;
+  font-size:28px;
+  line-height:50px;
+  
+}
+.header .operation{
+ 
+ width:100px;
+ height:100%;
+ display:flex;
+}
+.operation .images{
+  width:50px;
+  height:50px;
+  padding:12px 12px;
+  box-sizing: border-box;
+  
+}
+.images image{
+  width:100%;
+  height:100%;
+}
+.operation .add{
+  width:50px;
+  height:50px;
+  padding:14px 14px;
+  box-sizing: border-box;
+}
+.add image{
+  width:100%;
+  height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*药物信息展示*/
+
+.pic{
+  width:75px;
+  height:75px;
+
+}
+.pic image{
+  width:75px;
+  height:75px;
+ 
+}
+.medecine{
+border-bottom:1px solid lightgrey;
+padding:10px 10px;
+box-sizing: border-box;
+ width:100%;
+ height:100px;
+ 
+ display: flex;
+ 
+}
+
+.text{
+  width:655px;
+  height:75px;
+
+  padding:0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;/*换行*/ 
+  align-items: center;
+}
+.text .name,.DrugIntroduction{
+  width:59%;
+
+}
+.text .ShelfLife,.number{
+  width:39%;
+  font-size: 15px;
+  color:grey;
+}
+.name{
+  font-size: 20px;
+}
+.DrugIntroduction{
+  font-size: 15px;
+  color:grey;
+}
+
+
+
+

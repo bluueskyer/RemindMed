@@ -1,0 +1,58 @@
+/* pages/selectFromKit.wxss */
+.memberList{
+     background:#fff;
+     padding:0 35rpx 0 28rpx;
+   }
+   .allSelect_box{
+     line-height:90rpx;
+     border-bottom:1rpx solid #F5F5F5;
+   }
+   .checkbox{
+    transform: scale(0.7,0.7);
+  }
+  .member_box .checkbox{
+    margin-top: 15rpx;
+  }
+  checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+    color:#fff;
+    background: #6669e3;
+    border-color:#6669e3;
+  }
+  .allSelect{
+    margin-left:15rpx;
+    vertical-align:middle;
+    float: left;
+  }
+  .header{
+   
+    
+  }
+  .ok{
+    float:right;
+    transform:translateY(-130%);/**上移元素**/
+    color:red;
+	
+
+  }
+  .member_box{
+    padding-bottom:30rpx;
+    display: flex;
+    border-bottom:2rpx solid #EBEBEB;
+    padding:20rpx 0 20rpx 0;
+  }
+  .avatar{
+    width:100rpx;
+    border-radius:50%;
+    margin-left:15rpx;
+  }
+  .applicant_name{
+    font-size:34rpx;
+    padding:0 0 15rpx 30rpx;
+  }
+
+  
+  .approval_state{
+    color:#8D8D8D;
+    font-size:28rpx;
+    padding-left: 30rpx;
+  }

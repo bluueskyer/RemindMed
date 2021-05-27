@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/remind/remind",
+    "pages/me/me",
+    "pages/logs/logs",
+     "pages/selectFromKit/selectFromKit",
+    "pages/test/test",
+    "pages/MedicineKit/MedicineKit",
+    "pages/searchMedecine/searchMedecine",
+    "pages/DrugsDetails/DrugsDetails",
+    "pages/addMedecine/addMedecine",
+    "pages/SimaddMed/SimaddMed"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/提醒.png",
+        "iconPath": "images/提醒cute.png",
+        "pagePath": "pages/index/index",
+        "text": "提醒"
+      },
+      
+
+      {
+        "selectedIconPath": "images/药箱.png",
+        "iconPath": "images/药箱.png",
+        "pagePath": "pages/MedicineKit/MedicineKit",
+        "text": "药箱"
+      },
+      {
+        "selectedIconPath": "images/我的.png",
+        "iconPath": "images/我的.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

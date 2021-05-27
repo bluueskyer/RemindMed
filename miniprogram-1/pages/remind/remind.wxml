@@ -1,0 +1,44 @@
+<!--pages/remind/remind.wxml-->
+<view class="med_list">
+  <view class="fa_list_de">
+    <view class="list_de">药品清单</view>
+    <view class="sel_from" bindtap="selFromKit">从药箱选择</view>
+  </view>
+  <view class='cut'></view>
+  <view class='order_list'>
+    <button class="btn" bindtap="addMed">+ 添加药品</button>
+  </view>
+
+</view>
+
+<view class="seeting_remind">
+  <view class="fa_list_de">
+    <view class="list_de">提醒详情</view>
+  </view>
+  <view class='cut'></view>
+  <view class='item'>
+    <image class='icon' src='../../images/我的.png'></image>
+    <view class='itemname'>
+      <view>重复</view>
+      <view class="every">每天 ></view>
+      <view class="from_to">从今天开始</view>
+    </view>
+  </view>
+  
+  <view class='item'>
+    <image class='icon' src='../../images/我的.png'></image>
+    <view class='itemname'>
+      <view>剂量</view>
+    </view>
+   
+   
+  </view>
+  <view class='item'>
+    <image class='icon' src='../../images/我的.png'></image>
+    <view class='itemname'>
+      <view>吃药时间</view>
+    </view>
+    
+  </view>
+
+</view>

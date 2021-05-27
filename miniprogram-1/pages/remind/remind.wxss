@@ -1,0 +1,91 @@
+/* pages/remind/remind.wxss */
+.med_list{
+  width:92%;
+  height: auto;
+  margin:0 auto;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  text-align: center;
+  margin-bottom: 40rpx;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow:0rpx  2rpx  2rpx 3rpx rgb(221, 220, 220);
+}
+
+.list_de{
+  font-size: 20px;
+  color: gray;
+  margin-top: 30rpx;
+  float: left;
+  height:60rpx;
+  margin-left: 30rpx;
+}
+.sel_from{
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+  margin-top: 30rpx;
+  float: right;
+  height:60rpx;
+  margin-right: 3%;
+}
+
+.cut{
+  opacity: 0.2;
+  height: 2rpx;
+  margin-top: 20rpx;
+  background-color: #000000;
+}
+.btn{
+  margin-top: 25px;
+  width: 80%;
+  margin-bottom: 10px;
+  background-color:rgba(182, 181, 181, 0.164);
+  color: rgba(204, 202, 202, 0.938);
+}
+
+.seeting_remind{
+  width:92%;
+  height: auto;
+  margin:0 auto;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow:0rpx  2rpx  2rpx 3rpx rgb(221, 220, 220);
+}
+
+.item{
+  background-color: #ffffff;
+  display: flex;
+  margin:0 auto;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px dashed #ddd;
+  
+}
+.icon{
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  margin-left: 16rpx;
+}
+.itemname{
+  color: gray;
+  margin-left: 5%;
+  font-size: 34rpx;
+  position: relative;
+}
+
+.every{
+     position: absolute;
+     float:right;
+}
+.from_to{
+    
+}

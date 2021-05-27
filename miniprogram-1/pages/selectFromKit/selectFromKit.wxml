@@ -1,0 +1,21 @@
+<!--pages/selectFromKit.wxml-->
+<view class="memberList">
+  <view class="header">
+    <view class="allSelect_box">
+     <checkbox class="checkbox"  bindtap='selectAll' checked="{{selectilall}}"/>
+     <text class="allSelect">全选</text>
+   </view>
+   <view class="ok">确定</view>
+  </view>
+    
+  
+   <view wx:for="{{list}}">
+     <view class="member_box" data-index="{{index}}" data-name="{{item.id}}" bindtap='select'>
+       <checkbox class="checkbox" checked="{{item.checked}}"/>
+       <view>
+         <view class="applicant_name">阿莫西林 </view>
+         <view class="approval_state">暂无备注</view>
+       </view>
+     </view>
+   </view>
+ </view>

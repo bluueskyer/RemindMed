@@ -1,0 +1,37 @@
+
+<view class="body">
+  <view class="header">
+    
+      <view class="logo">
+        药箱
+      </view>
+    
+      <view class="operation">
+        <view class="images">
+        <image src="/images/search1.png" mode="heightFix"></image>
+      </view>
+        <view class="add" bindtap="addmedecine">
+          <image src="/images/add2.png" mode="heightFix"></image>
+        </view>
+      </view>
+      
+</view>
+
+
+
+
+
+  <navigator  wx:for="{{medecine}}" wx:key="id" url="../DrugsDetails/DrugsDetails">
+<view class="medecine">
+  <view class="pic">
+    <image src="/images/4.jpg"></image>
+  </view>
+  <view class="text">
+  <view class="name">{{item.name}}</view>
+  <view class="ShelfLife" decode="{{true}}">保质期<text decode="{{true}}">&nbsp; &nbsp;</text>{{item.time}}天</view>
+  <view class="DrugIntroduction">{{item.intro}}</view>
+  <view class="number" decode="{{true}}">库存量<text decode="{{true}}">&nbsp; &nbsp;</text>{{item.number}}g</view>
+</view>
+</view>
+</navigator>
+</view>

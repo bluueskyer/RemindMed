@@ -1,0 +1,41 @@
+<!--pages/SimaddMed/SimaddMed.wxml-->
+<view class="add">
+  <form>
+    <view class="section">
+      <view class="section1">药名</view>
+      <view class="section2">
+        <input placeholder="添加药品名称"></input>
+      </view>
+    </view>
+
+
+
+
+    <view class="section">
+      <view class="section1">简称</view>
+      <view class="section2">
+        <input placeholder="自定义，方便记忆"></input>
+      </view>
+    </view>
+
+
+    <view class="section">
+      <view class="section1">单位</view>
+
+
+      <button class="btn" bindtap="showPicker_03">{{picker_03_data[0]+picker_03_data[1]+picker_03_data[2]}}
+
+      </button>
+
+      <picker isShowPicker="{{isShow_03}}" bindsure="sureCallBack_03" bindcancle="cancleCallBack_03" scrollType="normal"
+        listData="{{listData_03}}"></picker>
+    </view>
+
+
+
+
+    <view class="section_beizhu">备注</view>
+    <textarea></textarea>
+    <button form-type="submit" class="submit">保存</button>
+  </form>
+</view>

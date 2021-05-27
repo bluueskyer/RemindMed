@@ -1,0 +1,61 @@
+<!--pages/me/me.wxml-->
+<view class='amountBg'>
+  <view class='img'>
+    <image src="../../images/userinfo.jpg" style='width:86px;height:86px;'></image>
+  </view>
+  <view class='account'>
+    <view class="name">Plute.</view>
+    <view class='manage_text'>普通用户</view>
+  </view>
+  <view class='set'><image src='/images/icon/set.png'></image></view>
+</view>
+<view class='contain'>
+  <view class='order'>
+    <view class='order_text'>我的订单</view>
+    <view class='cut'></view>
+    <view class='order_list'>
+    <view class='cut'></view>
+      <view class='desc'>
+        <view class="desc_img"><image src='../../images/icon/pay.png'></image></view>
+            <view>全部提醒</view>
+        </view>
+    <view class='desc'>
+      <view class='desc_img'><image src='../../images/icon/car.png'></image></view>
+          <view>漏服记录</view>
+      </view>
+        <view class='desc'>
+      <view class='desc_img'><image src='../../images/icon/complate.png'></image></view>
+          <view>消息通知</view>
+      </view>
+    </view>
+  </view>
+  <view class='clear'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/address.png'></image></view>
+    <view class='itemname'>
+      <view>设置</view>
+    </view>
+  </view>
+    <view class='hr'></view>
+   <view class='item' >
+    <view class='icon'><image src='../images/记录'></image></view>
+    <view class='itemname'>
+      <view>使用手册</view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/aggrement.png'></image></view>
+    <view class='itemname'>
+      <view>问题反馈</view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/fankui.png'></image></view>
+    <view class='itemname'>
+      <view>分享app</view>
+    </view>
+  </view>
+</view>
+

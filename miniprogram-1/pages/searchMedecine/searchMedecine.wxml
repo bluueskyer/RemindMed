@@ -1,0 +1,53 @@
+<view class="body">
+
+
+<!--搜索框-->
+  <view class="head">
+<view class="searchbox">
+  <icon type="search" wx:if="{{isSearch}}"></icon>
+    <input placeholder="请输入搜索的药名" bindinput="getinput" value="{{val}}"></input>
+    
+    <icon type="clear" wx:if="{{isClear}}" bindtap="cleartap"></icon>
+</view>
+<view class="search">搜索</view>
+</view>
+
+
+<!--如果搜索到显示药的信息-->
+<view  wx:if="{{false}}">
+<navigator  wx:for="{{medecine}}" wx:key="id" url="../DrugsDetails/DrugsDetails">
+<view class="medecine">
+  <view class="pic">
+    <image src="/images/4.jpg"></image>
+  </view>
+  <view class="text">
+  <view class="name">{{item.name}}</view>
+  <view class="ShelfLife" decode="{{true}}">保质期<text decode="{{true}}">&nbsp; &nbsp;</text>{{item.time}}天</view>
+  <view class="DrugIntroduction">{{item.intro}}</view>
+  <view class="number" decode="{{true}}">库存量<text decode="{{true}}">&nbsp; &nbsp;</text>{{item.number}}g</view>
+</view>
+</view>
+</navigator>
+</view>
+
+<view wx:else  class="nomedecine">
+  药箱中暂无此药，快来添加吧
+  <button>+添加药品</button>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+</view>
+
+
+
+
+

@@ -1,0 +1,91 @@
+<view class="body">
+<view class="addoperation">
+  <view class="add">
+   <form>
+    <view class="section">
+       <view class="section1">药名</view>
+       <view class="section2">
+       <input placeholder="添加药品名称"></input>
+      </view>
+     </view>
+     
+
+
+
+     <view class="section">
+       <view class="section1">简称</view>
+       <view class="section2">
+       <input placeholder="自定义，方便记忆"></input>
+      </view>
+     </view>
+     
+    
+  <view class="section">
+  <view class="section1">单位</view>
+  <view class="section2">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+</view>
+</view>
+
+
+<view class="section">
+  <view class="section1">到期日</view>
+  <view class="section2">
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+   {{date}}
+    </view>
+  </picker>
+</view>
+</view>
+
+
+<view class="section">
+       <view class="section1">到期提醒</view>
+       <view class="section2">
+       <input placeholder="距到期日还剩X天提醒我"></input>
+      </view>
+      <view>天</view>
+</view>
+
+<view class="section">
+       <view class="section1">库存</view>
+       <view class="section2">
+       <input ></input>
+      </view>
+      <view>{{array[index]}}</view>
+</view>
+     
+<view class="section">
+       <view class="section1">库存提醒</view>
+       <view class="section2">
+       <input placeholder="当库存还剩Xmg时提醒我"></input>
+      </view>
+      <view>{{array[index]}}</view>
+</view>
+
+ <view class="section_beizhu">备注</view>
+ <textarea></textarea>
+ <view class="opt">
+     <button class="delete">删除</button>
+     <button form-type="submit" class="submit">保存</button>
+    </view>
+   </form>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+</view>
